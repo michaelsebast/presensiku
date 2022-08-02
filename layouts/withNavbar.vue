@@ -33,7 +33,6 @@
           childs: [
             { id: 101, icon: "sakit", title: "Sakit" },
             { id: 101, icon: "izin", title: "Izin" },
-            { id: 101, icon: "Ekstrakurikuler", title: "Ektrakurikuler" }
           ],
         },
         { 
