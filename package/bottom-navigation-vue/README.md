@@ -1,26 +1,35 @@
 # vue-bottom-navigation
 
-## Documents
+> ⚠️ **In version > 2 we have many bottom navigations with basic structure but they have individual options**
+
 [Documents](https://vue-bottom-navigation.herokuapp.com/)
 
-## Demo
-[Demo](https://vue-bottom-navigation.herokuapp.com/navigations/)
+[Demos](https://vue-bottom-navigation.herokuapp.com/navigations/)
 
-## Installation
-### Vue 3
-```shell
-# npm
-$ npm install bottom-navigation-vue
-# yarn
-$ yarn add bottom-navigation-vue
-```
-### Vue 2
-```shell
-# npm
-$ npm install bottom-navigation-vue@2.5.2
-# yarn
-$ yarn add bottom-navigation-vue@2.5.2
-```
+## Curved bottom navigation
+
+- [**Installation**](https://vue-bottom-navigation.herokuapp.com/guide/curved)
+- [**Demo**](https://vue-bottom-navigation.herokuapp.com/navigations/curved)
+
+## Grow bottom navigation
+
+- [**Installation**](https://vue-bottom-navigation.herokuapp.com/guide/grow)
+- [**Demo**](https://vue-bottom-navigation.herokuapp.com/navigations/grow)
+
+## Swipe bottom navigation
+
+- [**Installation**](https://vue-bottom-navigation.herokuapp.com/guide/swipe)
+- [**Demo**](https://vue-bottom-navigation.herokuapp.com/navigations/swipe)
+
+## Ring bottom navigation
+
+- [**Installation**](https://vue-bottom-navigation.herokuapp.com/guide/ring)
+- [**Demo**](https://vue-bottom-navigation.herokuapp.com/navigations/ring)
+
+## Windows bottom navigation
+
+- [**Installation**](https://vue-bottom-navigation.herokuapp.com/guide/windows)
+- [**Demo**](https://vue-bottom-navigation.herokuapp.com/navigations/windows)
 
 # License
 

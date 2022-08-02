@@ -15,23 +15,35 @@
     data: () => ({
       selected: 3,
       options: [
+        { 
+          id: 1, icon: "fas fa-home", 
+          title: "Beranda",
+          path: { name: "index"},
+        },
         {
-          id: 1,
+          id: 2,
           icon: "riwayat",
           title: "Riwayat",
+          path: { name: "scan"},
+
         },
-        { id: 2, icon: "fas fa-home", title: "Beranda" },
         {
           id: 3,
           icon: "fas fa-barcode-read",
-          title: "QR Code",
+          title: "Scan",
+          path: { name: "scan"},
         },
         { 
           id: 4, 
           icon: "fas fa-plus", 
           title: "Presensi",
           childs: [
-            { id: 101, icon: "sakit", title: "Sakit" },
+            { 
+              id: 101, 
+              icon: "sakit", 
+              title: "Sakit",
+              path: { name: "index"},
+            },
             { id: 101, icon: "izin", title: "Izin" },
           ],
         },

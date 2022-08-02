@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>Hi from {{ name }}</p>
     <NuxtLink to="/">
       Home page
     </NuxtLink>
@@ -10,10 +9,5 @@
 <script>
 export default {
   layout: 'withNavbar',
-  asyncData ({ req }) {
-    return {
-      name: req ? 'server' : 'client'
-    }
-  }
 }
 </script>
